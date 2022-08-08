@@ -1,0 +1,40 @@
+.img{
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.titel{
+    color: rgb(20, 20, 56);
+    font-size: 25px;
+}
+.parag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.data{
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium
+}
+
+.card{
+    border: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.btm{
+    background-color: rgb(38, 38, 76);
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 40px;
+    border-radius: 8%;
+    border: 0ch;
+    font-size:medium;
+    margin-top: 30px;
+}
+
+.btm:hover{
+    background-color: rgb(53, 79, 103);
+}
