@@ -3,6 +3,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import './style.css';
+import Books from './Book';
 
 function Profile() {
   const { isAuthenticated, user } = useAuth0();
@@ -23,6 +24,7 @@ function Profile() {
       <ListGroup.Item className='data'> Your Locale Is : {user.locale}</ListGroup.Item>
     </ListGroup>
   </Card>
+  <Books />
   </>
  );
 }
