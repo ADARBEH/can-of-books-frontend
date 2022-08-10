@@ -1,5 +1,8 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
+
 
 
 
@@ -16,6 +19,10 @@ class Cardofbook extends React.Component {
         <Card.Text>
          {this.props.description}
         </Card.Text>
+        <Button  onClick={() => this.props.deletebook(this.props._id)}>Delete</Button>
+        <Card.Link href={`/books/${this.props._id}`}>Update</Card.Link>
+
+
       </Card.Body>
     </Card>
       );
